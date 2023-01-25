@@ -1,14 +1,60 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
+.libero {
+  background-color: #87e15d;
+  border-top-right-radius: 0.300rem;
+  border-bottom-right-radius: 0.300rem;
+  border-top-left-radius: 0.300rem;
+  border-bottom-left-radius: 0.300rem;
+  width: 30%;
+  height: 100%;
+}
+
+
+.medio {
+  background-image: linear-gradient(to right, #87e15d, #e88010);
+  border-top-right-radius: 0.300rem;
+  border-bottom-right-radius: 0.300rem;
+  border-top-left-radius: 0.300rem;
+  border-bottom-left-radius: 0.300rem;
+  width: 60%;
+  height: 100%;
+
+
+}
+
+.aff {
+  background-image: linear-gradient(to right, #87e15d, #e81010);
+  border-top-right-radius: 0.300rem;
+  border-bottom-right-radius: 0.300rem;
+  border-top-left-radius: 0.300rem;
+  border-bottom-left-radius: 0.300rem;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.contenitore {
+  border-top-right-radius: 0.425rem;
+  border-bottom-right-radius: 0.425rem;
+  border-top-left-radius: 0.425rem;
+  border-bottom-left-radius: 0.425rem;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: black;
+  width: 500px;
+  height: 20px;
+}
